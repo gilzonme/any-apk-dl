@@ -1,0 +1,27 @@
+{
+  "name": "any-apk-dl",
+  "version": "1.0.0",
+  "description": "Download apk file with package name",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpanuragh/any-apk-dl.git"
+  },
+  "keywords": [
+    "Apk",
+    "download"
+  ],
+  "author": "Gilson Gilbert, Anuragh K P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpanuragh/any-apk-dl/issues"
+  },
+  "homepage": "https://github.com/kpanuragh/any-apk-dl#readme",
+  "dependencies": {
+    "download": "^8.0.0",
+    "puppeteer": "^13.6.0"
+  }
+}
