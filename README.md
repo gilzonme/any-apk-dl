@@ -2,6 +2,7 @@
 
 A package to download apk based on package name from various sources
 
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=gilzonme_any-apk-dl&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=gilzonme_any-apk-dl)
 
 ## To-Do
 
