@@ -1,0 +1,26 @@
+{
+  "name": "any-apk-dl",
+  "version": "1.0.0",
+  "description": "Download any apk from various sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilzonme/any-apk-dl.git"
+  },
+  "keywords": [
+    "apk",
+    "download",
+    "apk",
+    "android",
+    "app"
+  ],
+  "author": "gilzonme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilzonme/any-apk-dl/issues"
+  },
+  "homepage": "https://github.com/gilzonme/any-apk-dl#readme"
+}
