@@ -14,6 +14,7 @@ async function getUrl(package_name) {
     await browser.close();
     return "http:" + url;
   } catch (error) {
+    console.log(error);
     throw error
   }
 }
