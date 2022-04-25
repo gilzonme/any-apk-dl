@@ -1,8 +1,6 @@
-const anyApkDl=require("../package/index");
+const anyApkDl=require("any-apk-dl");
 const provider=anyApkDl();
-provider.getUrl("com.whatsapp").then(res=>{
-    console.log(res);
-})
-provider.downloadApk("com.whatsapp",__dirname).then(res=>{
+
+provider.download("com.whatsapp","./apks/").then(res=>{
     console.log(res);
 })

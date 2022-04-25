@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer');
-const download = require("download")
 async function getUrl(package_name) {
   try {
     if (!package_name) {
@@ -18,17 +17,6 @@ async function getUrl(package_name) {
     throw error
   }
 }
-async function downloadApk(package_name, path) {
-  try {
-    let url = await getUrl(package_name);
-    await download(url, path);
-    return true;
-  }
-  catch (error) {
-    throw error;
-  }
-}
 module.exports = {
-  getUrl,
-  downloadApk
+  getUrl
 }
