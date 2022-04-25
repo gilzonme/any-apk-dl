@@ -4,14 +4,19 @@ A package to download apk based on package name from various sources
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=gilzonme_any-apk-dl&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=gilzonme_any-apk-dl)
 
-## To-Do
+## INSTALL
 
-[] Import Providers to package `index.js`
-[] Update test by importing the package
-[] Create a common & confgurable download handler
-[] Define settings for package usage
+```
+npm i any-apk-dl
+```
 
+## USAGE
 
-### Future
+```
+const anyApkDl=require("any-apk-dl");
+const provider=anyApkDl();
 
-[] Download APK based on version
+provider.download("com.whatsapp","./apks/").then(res=>{
+    console.log(res);
+})
+```
