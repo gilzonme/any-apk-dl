@@ -11,8 +11,15 @@ async function download(package_name, path) {
         const provider = getRandomProvider(providerConfig);
         const providerObject = require("../providers/" + providerConfig[provider])
         const url = await providerObject.getUrl(package_name)
-        await downloader(url, path);
-        return true;
+        const file_name = package_name + ".apk"
+        await downloader(url, path, {
+            filename: file_name
+        })
+        return {
+            download_status: 'success',
+            file_name,
+            full_path: path+ "/" + file_name,
+        };
     }
     catch (error) {
         throw error;

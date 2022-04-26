@@ -25,6 +25,8 @@
   "homepage": "https://github.com/gilzonme/any-apk-dl#readme",
   "dependencies": {
     "download": "^8.0.0",
-    "puppeteer": "^13.6.0"
+    "puppeteer": "^13.6.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
   }
 }
