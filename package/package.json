@@ -1,6 +1,6 @@
 {
   "name": "any-apk-dl",
-  "version": "1.0.0-dev1.0.2",
+  "version": "1.0.0-dev1.0.3",
   "description": "Download any apk from various sources",
   "main": "index.js",
   "scripts": {
