@@ -20,3 +20,13 @@ provider.download("com.whatsapp","./apks/").then(res=>{
     console.log(res);
 })
 ```
+
+On Successful download these information will be available
+
+```
+{
+  download_status: 'success',
+  file_name: 'com.whatsapp.apk',
+  full_path: './apks/com.whatsapp.apk'
+}
+```
